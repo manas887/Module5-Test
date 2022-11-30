@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 12.1rem;
+}
+
+h2 {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 6.1rem;
+
+    color: #000000;
+}
+
+p,
+button {
+    color: #000000;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*<-------------------NAV-BAR CSS----------------------> */
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar {
+    /* position: absolute; */
+    background-color: #000000;
+    border-bottom: 2px solid #FFFFFF;
+    width: 1728px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    left: 38px;
+    top: 29px;
+}
+
+#home {
+    position: absolute;
+    width: 67px;
+    height: 29px;
+    left: 1171px;
+    top: 29px;
+}
+
+#aboutus {
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 1267px;
+    top: 29px;
+}
+
+#knowmore {
+    position: absolute;
+    width: 127px;
+    height: 29px;
+    left: 1407px;
+    top: 29px;
+}
+
+#contactus {
+    position: absolute;
+    width: 127px;
+    height: 29px;
+    left: 1563px;
+    top: 29px;
+}
+
+/*<-------------------Section-1 CSS----------------------> */
+.section-1 {
+    position: relative;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 87px;
+    background: #000000;
+}
+
+.text-1 {
+    position: absolute;
+    width: 1050px;
+    height: 745px;
+    left: 96px;
+    top: 142PX;
+    font-weight: 700;
+
+    color: #FFFFFF;
+}
+
+.text-1 .fade-in {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.img-1 {
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    left: 994px;
+    top: 515px;
+}
+
+.arrow {
+    position: absolute;
+    width: 59px;
+    height: 0px;
+    left: 864px;
+    top: 910px;
+}
+
+/*<-------------------Section-2 CSS----------------------> */
+#section-2 {
+    position: relative;
+
+}
+
+.img-2 {
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 236px;
+}
+
+.text-2 .heading {
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 236px;
+}
+
+.text-2 .paragraph {
+    color: #000000;
+    position: absolute;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 408px;
+}
+
+/*<-------------------Section-3 -CSS----------------------> */
+.div {
+    position: relative;
+}
+
+.div .heading-2 {
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 82px;
+    top: 1134px;
+}
+
+#outer {
+    position: relative;
+}
+
+.box {
+    transition: all 0.3s;
+}
+
+.box:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.sec h2:hover {
+    color: #FFFFFF;
+}
+
+.para p:hover {
+    color: #FFFFFF;
+}
+
+
+.box1 {
+    border: 1px solid black;
+    position: relative;
+    width: 599px;
+    height: 423px;
+    left: 82px;
+    top: 1347px;
+}
+
+.box1 .sec-1 {
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 44px;
+    top: 45px;
+}
+
+.box1 .para1 {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 44px;
+    top: 138px;
+}
+
+.box2 {
+    border: 1px solid black;
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 747px;
+    top: 1347px;
+}
+
+.box2 .sec-2 {
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 44px;
+    top: 45px;
+}
+
+.box2 .para2 {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 44px;
+    top: 138px;
+}
+
+.box3 {
+    border: 1px solid black;
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 1412px;
+    top: 1347px;
+}
+
+.box3 .sec-3 {
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 44px;
+    top: 45px;
+}
+
+.box3 .para3 {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 44px;
+    top: 138px;
+}
+
+
+.border {
+    position: absolute;
+    width: 1622px;
+    height: 0px;
+    left: 89px;
+    top: 1870px;
+    border: 10px solid #000000;
+}
+
+/*<-------------FOOTER------------> */
+#footer {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 1700px;
+
+    background: #000000;
+}
+
+.foot .heading-3 {
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 101px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    color: #FFFFFF;
+}
+
+input[type=email] {
+    color: #FFFFFF;
+}
+
+
+.name {
+    font-size: 24px;
+    padding: 13px;
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 302px;
+    border: 1px solid #FFFFFF;
+
+    background: #000000;
+}
+
+.last {
+    font-size: 24px;
+    padding: 13px;
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 409px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+}
+
+.email {
+    font-size: 24px;
+    padding: 13px;
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 515px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+}
+
+.reason {
+    font-size: 24px;
+    padding: 13px;
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 621px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+}
+
+.button {
+
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 146px;
+    top: 728px;
+    border: 1px solid #FFFFFF;
+}
